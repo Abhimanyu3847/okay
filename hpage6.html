@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World War I - History Hub</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('images/bg1.png'); /* Background image for WWI */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+            animation: fadeIn 2s ease-out;
+            background-color: #2c3e50;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 2em;
+            animation: slideInFromTop 1s ease-out;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3.5em;
+            font-family: 'Times New Roman', Times, serif;
+            color: #f1c40f;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            opacity: 0.9;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+            display: inline-block;
+            font-size: 1.3em;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #f1c40f;
+            color: #2c3e50;
+            transform: scale(1.1);
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 30px;
+            margin-top: 100px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .content-section {
+            margin-bottom: 40px;
+        }
+
+        .content-section h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #f39c12;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .content-section p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+            text-align: justify;
+            animation: fadeInText 3s ease-in-out;
+        }
+
+        .content-section ul {
+            font-size: 1.1em;
+            margin-left: 20px;
+            line-height: 1.8em;
+        }
+
+        .content-section img {
+            width: 80%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            margin-top: 20px;
+            animation: zoomIn 1s ease-out;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .back-link {
+            display: inline-block;
+            font-size: 1.3em;
+            color: #f39c12;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            padding: 12px 25px;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        .back-link:hover {
+            background-color: #f1c40f;
+            color: #2c3e50;
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes fadeInText {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes slideInFromTop {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(0); }
+        }
+
+        @keyframes zoomIn {
+            0% { transform: scale(0.8); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>World War I (1914-1918)</h1> <!-- Changed title to World War I -->
+    </header>
+
+    <main>
+        <section class="content-section">
+            <h2>Background of the War</h2>
+            <p>
+                World War I, also known as the Great War, was a global conflict that lasted from 1914 to 1918. It involved most of the world's great powers, divided into two opposing alliances: the Allies and the Central Powers. <!-- Updated text content -->
+            </p>
+            <ul>
+                <li><strong>Alliance Systems:</strong> The web of alliances in Europe played a crucial role in the war's escalation.</li>
+                <li><strong>Imperial Rivalries:</strong> Competition for colonial dominance added to the tensions.</li>
+                <li><strong>Nationalism:</strong> Strong nationalist sentiments among nations fueled the conflict.</li>
+            </ul>
+            <img src="images/map2.png" alt="World War I Map"> <!-- Updated image source -->
+        </section>
+
+        <section class="content-section">
+            <h2>Causes of the War</h2>
+            <p>
+                The war was caused by a combination of political, military, and social factors, culminating in the assassination of Archduke Franz Ferdinand of Austria-Hungary in 1914. <!-- Updated text content -->
+            </p>
+            <ul>
+                <li><strong>Militarism:</strong> Arms races and military planning created a sense of inevitable conflict.</li>
+                <li><strong>Alliance Networks:</strong> Defensive treaties turned localized disputes into global conflicts.</li>
+                <li><strong>Immediate Spark:</strong> The assassination of Archduke Franz Ferdinand in Sarajevo.</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>Key Battles and Events</h2>
+            <p>
+                World War I witnessed some of the most devastating battles in history, including the Battle of the Somme, the Battle of Verdun, and the Gallipoli Campaign. <!-- Updated text content -->
+            </p>
+            <ul>
+                <li><strong>Battle of the Somme:</strong> Marked by immense casualties, it highlighted the brutality of trench warfare.</li>
+                <li><strong>Battle of Verdun:</strong> One of the longest and bloodiest battles in the war.</li>
+                <li><strong>Gallipoli Campaign:</strong> A significant campaign in the Ottoman theater of the war.</li>
+            </ul>
+            <img src="images/jp.png" alt="World War I Battle"> <!-- Updated image source -->
+        </section>
+
+        <section class="content-section">
+            <h2>Outcome of the War</h2>
+            <p>
+                The war ended with an Allied victory in 1918, leading to the Treaty of Versailles. It redrew borders, dissolved empires, and set the stage for World War II. <!-- Updated text content -->
+            </p>
+            <ul>
+                <li><strong>Economic Costs:</strong> Massive destruction and economic upheaval across Europe.</li>
+                <li><strong>Political Changes:</strong> The collapse of empires like Austro-Hungarian, Ottoman, and German.</li>
+                <li><strong>Legacy:</strong> The League of Nations was established to promote peace.</li>
+            </ul>
+            <a href="https://en.wikipedia.org/wiki/World_War_I" 
+               style="background-color: #4CAF50; 
+                      color: white; 
+                      font-size: 1.2em; 
+                      padding: 10px 20px; 
+                      border-radius: 5px; 
+                      text-decoration: none; 
+                      display: inline-block; 
+                      transition: background-color 0.3s ease;">
+                Learn More
+            </a>
+        </section>
+
+        <a href="history.html" class="back-link">Back to History Hub</a>
+    </main>
+</body>
+</html>

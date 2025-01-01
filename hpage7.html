@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World War II - History Hub</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('images/bg2.png'); /* Background image for WWII */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+            animation: fadeIn 2s ease-out;
+            background-color: #2c3e50;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 2em;
+            animation: slideInFromTop 1s ease-out;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3.5em;
+            font-family: 'Times New Roman', Times, serif;
+            color: #f1c40f;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            opacity: 0.9;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+            display: inline-block;
+            font-size: 1.3em;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #f1c40f;
+            color: #2c3e50;
+            transform: scale(1.1);
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 30px;
+            margin-top: 100px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .content-section {
+            margin-bottom: 40px;
+        }
+
+        .content-section h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #f39c12;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .content-section p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+            text-align: justify;
+            animation: fadeInText 3s ease-in-out;
+        }
+
+        .content-section ul {
+            font-size: 1.1em;
+            margin-left: 20px;
+            line-height: 1.8em;
+        }
+
+        .content-section img {
+            width: 80%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            margin-top: 20px;
+            animation: zoomIn 1s ease-out;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .back-link {
+            display: inline-block;
+            font-size: 1.3em;
+            color: #f39c12;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            padding: 12px 25px;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        .back-link:hover {
+            background-color: #f1c40f;
+            color: #2c3e50;
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes fadeInText {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes slideInFromTop {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(0); }
+        }
+
+        @keyframes zoomIn {
+            0% { transform: scale(0.8); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>World War II (1939-1945)</h1> <!-- Updated title for WWII -->
+    </header>
+
+    <main>
+        <section class="content-section">
+            <h2>Background of the War</h2>
+            <p>
+                World War II was a global conflict that lasted from 1939 to 1945, involving most of the world's nations. It was the deadliest conflict in human history and was primarily fought between the Axis Powers and the Allied Powers. <!-- Updated text -->
+            </p>
+            <ul>
+                <li><strong>Axis Powers:</strong> Led by Germany, Italy, and Japan.</li>
+                <li><strong>Allied Powers:</strong> Included the United States, Soviet Union, United Kingdom, and China.</li>
+                <li><strong>Global Scale:</strong> The war spread across Europe, Asia, Africa, and the Pacific.</li>
+            </ul>
+            <img src="images/map2.png" alt="World War II Map"> <!-- Updated image -->
+        </section>
+
+        <section class="content-section">
+            <h2>Causes of the War</h2>
+            <p>
+                The causes of World War II can be traced back to unresolved tensions after World War I, the rise of fascist regimes, and aggressive expansionist policies by Axis Powers. <!-- Updated text -->
+            </p>
+            <ul>
+                <li><strong>Treaty of Versailles:</strong> Harsh terms imposed on Germany after World War I fueled resentment.</li>
+                <li><strong>Rise of Fascism:</strong> Dictatorships in Germany, Italy, and Japan sought territorial expansion.</li>
+                <li><strong>Appeasement:</strong> The failure of appeasement policies emboldened Axis aggression.</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>Key Battles and Events</h2>
+            <p>
+                World War II included pivotal battles and events such as the Invasion of Poland, the Battle of Stalingrad, the D-Day invasion, and the bombing of Hiroshima and Nagasaki. <!-- Updated text -->
+            </p>
+            <ul>
+                <li><strong>Invasion of Poland (1939):</strong> Marked the start of the war.</li>
+                <li><strong>Battle of Stalingrad (1942-1943):</strong> A turning point in favor of the Allies.</li>
+                <li><strong>D-Day (1944):</strong> The Allied invasion of Normandy marked the beginning of the end for Nazi Germany.</li>
+                <li><strong>Atomic Bombings (1945):</strong> The bombings of Hiroshima and Nagasaki led to Japan's surrender.</li>
+            </ul>
+            <img src="images/le.png" alt="World War II leaders"> <!-- Updated image -->
+        </section>
+
+        <section class="content-section">
+            <h2>Outcome of the War</h2>
+            <p>
+                World War II ended with the unconditional surrender of Axis Powers in 1945. The war reshaped the global political order, leading to the Cold War and the establishment of the United Nations. <!-- Updated text -->
+            </p>
+            <ul>
+                <li><strong>Axis Defeat:</strong> Germany, Japan, and Italy were defeated.</li>
+                <li><strong>Economic Impact:</strong> Europe was left in ruins, while the United States and Soviet Union emerged as superpowers.</li>
+                <li><strong>Global Organizations:</strong> The United Nations was formed to promote peace and prevent future conflicts.</li>
+            </ul>
+            <a href="https://en.wikipedia.org/wiki/World_War_II" 
+               style="background-color: #4CAF50; 
+                      color: white; 
+                      font-size: 1.2em; 
+                      padding: 10px 20px; 
+                      border-radius: 5px; 
+                      text-decoration: none; 
+                      display: inline-block; 
+                      transition: background-color 0.3s ease;">
+                Learn More
+            </a>
+        </section>
+
+        <a href="index.html" class="back-link">Back to History Hub</a>
+    </main>
+</body>
+</html>
